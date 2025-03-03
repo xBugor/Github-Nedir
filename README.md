@@ -65,6 +65,16 @@ Git
 
 # Kısaca Git ile ilgili kavramlar
 
+✅ Global config: Kullanıcı bilgilerini git sistemine kaydetmek için kullanılan konfigürasyonlar.
+  * Git'i kullanmaya başlamadan önce kullanıcı adı ve e-posta adresinizi ayarlamanız gerekiyor:
+
+`git config --global user.name "Adınız Soyadınız"`
+
+
+`git config --global user.email "epostanız@example.com"`
+
+
+
 ✅ Commit: Değişiklikleri benim değişimle bir paket haline getirip sonra bu paketin üstüne adres yazmak gibidir. Başka bir değişle yapılan bir değişikliğin kaydedilmesi işlemine denir. 
 
 ✅ Init : git versiyon sistemini başlatama işlemi nedir. Bashte
@@ -73,13 +83,44 @@ Git
 
 ✅ Status: git deposundaki anlık durumu göstermeye yarar.
 
-     `git status`
+     git status
 
 ✅ Push : git uzak deposundaki genellikle github değişiklikleri yollamaya yarayan kod.
 
-    ` git push`
+    git push
 
 
 ✅ Pull : git deposundaki değişiklikleri makinana almaya yarar.
 
-    ` git pull`
+    git pull
+✅ Branch: Bir projenin geliştirilmesi için ayrılan yollara branch denir. Ana yolumuza main ya da master branch denir.
+
+    `git branch branchadı`  
+   
+   bu kod ile yeni branch oluşturabilirsiniz.
+
+    `git checkout -b yeni-branch` 
+   
+   bu kod ile yeni-branche geçiş yapabilirsiniz.
+
+✅ Merge : Bir branch’in içindeki değişiklikleri başka bir branch’e dahil etmek için kullanılır
+
+    `git merge mainbracheklenecekbranch` 
+  
+  bu kod default olarak mainde olduğunuz varsayılarak yazıldı.
+
+✅ Rebase : bir branch’in değişikliklerini başka bir branch’in son commit’leri üzerine ekler. Merge göre daha temiz bir commit geçmişi ayarlar.
+
+    `git rebase main`
+---
+### Git stating nedir?
+
+Git 3 aşamalı katmandan sistemiyle çalışmaktadır.
+
+1. Working Directory (Çalışma Alanı) Bu alana projemizin dosylarını düzenlediğimiz alanda denilebilir.
+2. Staging Area (Hazırlık Alanı)  Burada commit atmadan önce hangi değişikliklerinin comite ekleneceğinin ayarlandığı bölümdür.
+   * Belirli bir dosyayı comite eklemek için:
+   `git add dosyadı.dosyauzantısı`
+   * Tüm değişiklikleri eklemek için:
+   `git add .`
+3. Repository (Depo): Commit edilen dosyaların Git tarafından kalıcı olarak saklandığı alan.
