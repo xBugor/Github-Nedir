@@ -61,3 +61,25 @@ Git
 - Yazılımcılar için bir cv niyetindende kullanılabilir.
  
    *It can also be used as a CV for developers.*
+
+
+# Kısaca Git ile ilgili kavramlar
+
+✅ Commit: Değişiklikleri benim değişimle bir paket haline getirip sonra bu paketin üstüne adres yazmak gibidir. Başka bir değişle yapılan bir değişikliğin kaydedilmesi işlemine denir. 
+
+✅ Init : git versiyon sistemini başlatama işlemi nedir. Bashte
+
+     `git init` yazarak kullanabilirsiniz.
+
+✅ Status: git deposundaki anlık durumu göstermeye yarar.
+
+     `git status`
+
+✅ Push : git uzak deposundaki genellikle github değişiklikleri yollamaya yarayan kod.
+
+    ` git push`
+
+
+✅ Pull : git deposundaki değişiklikleri makinana almaya yarar.
+
+    ` git pull`
