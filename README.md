@@ -124,3 +124,6 @@ Git 3 aşamalı katmandan sistemiyle çalışmaktadır.
    * Tüm değişiklikleri eklemek için:
    `git add .`
 3. Repository (Depo): Commit edilen dosyaların Git tarafından kalıcı olarak saklandığı alan.
+
+
+### Bugrahan Bayrakci
