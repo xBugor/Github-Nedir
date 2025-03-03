@@ -1,4 +1,5 @@
 # Git ve GitHub Nedir?
+
 Git
 --
 
@@ -37,8 +38,26 @@ Git
 
 # GitHub
 - GitHub geliştiricilerin kodlarını depoladığı, yayınladığı uzak bir depodur.
+
+  *GitHub is a remote repository where developers store and publish their code.*
+
 - Git versiyon sistemi ile çalışmaktadır.
+ 
+  *It works with the Git version control system.*
+
 - Public olan projeleri indirip kullanabilirsiniz.
+
+   *You can download and use public projects.*
+
 - GitHub açık kaynak yazılımlar için kullanılan bir platform olduğu gibi özel projeler içinde kullanılabilir.
+
+* GitHub is a platform used for open-source software, but it can also be used for private projects.*
+
 - GitHub'a projeleri yüklemek için repository dediğimiz depoları açmak gereklidir.
+
+  *To upload projects to GitHub, it is necessary to create repositories, which are called 'repos'.*
+
+
 - Yazılımcılar için bir cv niyetindende kullanılabilir.
+ 
+   *It can also be used as a CV for developers.*
