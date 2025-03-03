@@ -2,7 +2,7 @@
 Git
 --
 
-- ✅ Git bir [versiyon kontrol ](#bilgi-kısmı)sistemidir. 
+- ✅ Git bir <a href="#bilgi-kısmı">versiyon kontrol</a> sistemidir. 
 
    *Git a version control system.*
    
@@ -28,10 +28,9 @@ Git
  
   *Git allows you to work offline.*
 
-## Bilgi Kısmı
-*Versiyon kontrol: Projenizin her değişikliğini kayıt altına alıp daha sonra eski haline dönmenizi sağlayacaktur.*
-##
+<h2 id="bilgi-kısmı">Versiyon kontrol: Projenizin her değişikliğini kayıt altına alıp daha sonra eski haline dönmenizi sağlayacaktır.</h2>
 
+ 
 ### Özetle 
 
  Git projelerinizi yerel olarak kontrol etmenizi sağlar.
