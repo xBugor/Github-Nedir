@@ -51,7 +51,7 @@ Git
 
 - GitHub açık kaynak yazılımlar için kullanılan bir platform olduğu gibi özel projeler içinde kullanılabilir.
 
-* GitHub is a platform used for open-source software, but it can also be used for private projects.*
+   GitHub is a platform used for open-source software, but it can also be used for private projects.*
 
 - GitHub'a projeleri yüklemek için repository dediğimiz depoları açmak gereklidir.
 
