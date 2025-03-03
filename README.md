@@ -28,7 +28,7 @@ Git
  
   *Git allows you to work offline.*
 
-<h2 id="bilgi-kısmı">Versiyon kontrol: Projenizin her değişikliğini kayıt altına alıp daha sonra eski haline dönmenizi sağlayacaktır.</h2>
+<h4 id="bilgi-kısmı">Versiyon kontrol: Projenizin her değişikliğini kayıt altına alıp daha sonra eski haline dönmenizi sağlayacaktır.</h4>
 
  
 ### Özetle 
